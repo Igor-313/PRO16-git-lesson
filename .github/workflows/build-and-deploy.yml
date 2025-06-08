@@ -46,6 +46,7 @@ jobs:
           shopt -u extglob
 
           cp -r dist/* .
+          rm -rf .github
           rm -rf dist
 
           git add -A
